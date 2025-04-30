@@ -195,30 +195,6 @@ export default function ReadersCornerPage() {
         </div>
       </section>
 
-      {/* Share Your Story */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-primary/5 to-secondary/5 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/5 z-0"></div>
-        <div className="container px-4 md:px-6 relative z-10">
-          <AnimatedSection className="flex flex-col items-center justify-center space-y-6 text-center">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-                Share Your <span className="gradient-text">Story</span>
-              </h2>
-              <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Have a success story or experience you&apos;d like to share with our community? We&apos;d love to hear
-                from you!
-              </p>
-            </div>
-            <Link href="/contact">
-              <Button size="lg" className="group">
-                Contact Us
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Button>
-            </Link>
-          </AnimatedSection>
-        </div>
-      </section>
-
        {/* Services Overview with Creative Design */}
        <section className="w-full py-20 md:py-32 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-tr from-muted via-muted/50 to-muted/80 z-0"></div>
